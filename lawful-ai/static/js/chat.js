@@ -35,7 +35,7 @@ async function sendMessage() {
 
   try {
     // Send user input to Flask backend
-    const response = await fetch("http://127.0.0.1:5000/process", {
+    const response = await fetch("/process", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

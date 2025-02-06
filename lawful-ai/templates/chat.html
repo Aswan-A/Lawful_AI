@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lawful-AI Chat</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/chat.css')}}">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
@@ -59,8 +59,7 @@
 
     </div>
 
-    <script src="js/script.js"></script>
-    <script src="js/chat.js"></script>
+    <script src="{{url_for('static',filename='js/chat.js')}}"></script>
 </body>
 
 </html>
